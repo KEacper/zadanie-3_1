@@ -1,2 +1,3 @@
-Krzysztof 20
-Janusz 40
+adam kowalski 32 12.12.80
+norbert nowak 39 13.03.43
+maciej kowal 32 05.08.08
