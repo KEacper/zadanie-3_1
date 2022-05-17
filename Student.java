@@ -3,23 +3,23 @@ public class Student {
   private String Name;
   private String Nazwisko;
   private int Age;
-  private String Uro;
+  private String Urodz;
 
-  public Student(String name, String nazwisko, int age, String uro) {
+  public Student(String name, String nazwisko, int age, String urodz) {
     Name = name;
     Nazwisko = nazwisko;
     Age = age;
-    Uro = uro;
+    Urodz = urodz;
     
   }
 
   public String GetName() {return Name;}
   public String GetNazwisko() {return Nazwisko;}
   public int GetAge() {return Age;}
-   public String GetBorn() {return Uro;}
+   public String GetBorn() {return Urodz;}
 
   public String ToString() {
-    return Name + " " + Nazwisko + " " + Integer.toString(Age)+" "+Uro;
+    return Name + " " + Nazwisko + " " + Integer.toString(Age)+" "+Urodz;
   }
 
   public static Student Parse(String str) {

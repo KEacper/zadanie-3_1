@@ -10,7 +10,7 @@ class Main {
       String imie;
       String nazwisko;
       int wiek;
-      String uro;
+      String urodz;
       System.out.println("Lista studentów");
       while(x!=0)
         {
@@ -31,8 +31,8 @@ class Main {
                   System.out.println("Podaj wiek: ");
                   wiek=skan.nextInt();
                   System.out.println("Podaj datę urodzenia: ");
-                  uro=skan1.nextLine();
-                  s.addStudent(new Student(imie, nazwisko, wiek, uro));
+                  urodz=skan1.nextLine();
+                  s.addStudent(new Student(imie, nazwisko, wiek, urodz));
                 }break;
               case 2:
                 { System.out.println("Wszyscy studenci w bazie: \n");
